@@ -1,4 +1,4 @@
-package com.example.sbbmission;
+package com.example.sbbmission.domain.answer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
