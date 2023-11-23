@@ -29,4 +29,12 @@ public class QuestionService {
         }
     }
 
+    public void create(String subject, String content) {
+        Question question = new Question();
+        question.setSubject(subject);
+        question.setContent(content);
+        question.setCreateDate(LocalDateTime.now());
+        this.questionRepository.save(question);
+    }
+
 }
